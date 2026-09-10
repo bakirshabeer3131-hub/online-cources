@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+#teacher-card1{
+    display: flex;
+    flex-direction: column;
+}
+.teacher{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#teacher-card2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.bg-img-card{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    gap: 20px;
+    display: none;
+}
+#teacher-card{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+#teacher-card:hover .bg-img-card{
+    display: block;
+}

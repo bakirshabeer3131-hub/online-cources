@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#course-sec{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.course-sec-card1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+@media all and (min-width:350px) and (max-width:720px) {
+    .course-sec-card2{
+        display: none;
+    }
+    .course-sec-card2-form{
+        display: none;
+    }
+     
+}
+
+#course-inout1{
+    display: flex;
+    align-items: center;
+}
+.course-inout-head{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.course-inout1-h{
+    font-size: 16px;
+    color: #212529;
+    font-weight: 700;
+
+}
+.course-inout1-span{
+    font-weight: normal; 
+}
+.course-sec-card2 {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.course-sec-card2-form{
+   border: 1px solid #17d0cf;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.card2-form-h{
+    font-size: 26px;
+    font-weight: 700;
+    color: #212529;
+    margin: 20px 0px;
+    padding: 0px;
+}
+.card2-form-span{
+    font-weight: normal;
+}
+.form-label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212529;
+}
+#card2-form{
+    border-radius: 0px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+}
+.form-btn{
+    background-color: #17d0cf;
+    padding: 13px 5px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.form-btn:hover{
+    background-color: #01A6FD;
+}
+.tage-card{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
