@@ -1,7 +1,35 @@
-/* *{
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Flex', sans-serif;
     
 }
 
-#touch-card{
 
-} */
+#touch-icon{
+    font-size: 60px;
+    font-weight: 400;
+    padding: 10px;
+    color: #17d0cf;
+}
+#touch-card:hover #touch-icon{
+    color: #ffffff;
+}
+#touch-card:hover{
+    background-color: #17d0cf;
+    color: #ffffff;
+}
+#touch-card:hover #touch-card-h{
+    color: #ffffff;
+}
+#touch-card-h{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212529;
+}
+#form-label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #212529;
+}
